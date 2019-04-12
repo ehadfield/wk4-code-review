@@ -15,8 +15,8 @@ _A simple website utilizing a custom function to add together a user's pizza ord
 |:-------------:|:-------------:|:-------------:|
 | Output can determine pizza sizes | small | small |
 | Output includes whichever toppings are chosen |   Tomato Sauce |   Tomato Sauce|
-| Output determines price of pizza by adding the price of toppings to initial price |   Tomato Sauce |  +=1 |
-| Output determines price of pizza by adding the price of the size of pizza | small | +=2 |
+| Output determines price of pizza by adding the price of number of toppings to initial pizza price |   Tomato Sauce |  +=1 |
+| Output determines price of pizza by adding the price of the size of pizza to the base pizza price. | small | += 2 |
 | Output includes customer's name, size of pizza, ingredients, and the cash total of the pizza | Barf, Medium, Basil, Milk Bone | Barf, Medium, Basil, Milk Bone, $17  |
 
 
