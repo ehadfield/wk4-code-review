@@ -9,16 +9,26 @@ function Pizza(size, ingredients) {
 function Customer(name) {
   this.name = name;
 }
+//Price Formula
+Pizza.prototype.price = function() {
+  var price = 10;
+  if (this.pizzasize === "Large Pizza") {
+    price += 15;
+  } else if (this.pizzasize === "Medium Pizza") {
+    price += 10;
+  } else if (this.pizzasize === "Small Pizza") {
+    price += 5;
+  } else {
+    price += 0;
+  }
 
-
-
-
-
-
-
-
-
-
+  if (this.pizzaingredients.length === 0) {
+    price += 0;
+  } else {
+    price += this.pizzaingredients.length;
+  }
+  return price;
+};
 
 
 //Front End Logic
