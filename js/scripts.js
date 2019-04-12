@@ -13,11 +13,11 @@ function Customer(name) {
 Pizza.prototype.price = function() {
   var price = 10;
   if (this.pizzasize === "Large Pizza") {
-    price += 15;
-  } else if (this.pizzasize === "Medium Pizza") {
     price += 10;
-  } else if (this.pizzasize === "Small Pizza") {
+  } else if (this.pizzasize === "Medium Pizza") {
     price += 5;
+  } else if (this.pizzasize === "Small Pizza") {
+    price += 2;
   } else {
     price += 0;
   }
