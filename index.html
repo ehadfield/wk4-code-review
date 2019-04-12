@@ -1,151 +1,148 @@
 <!DOCTYPE html>
 <html lang="en" dir="ltr">
   <head>
+    <link href="https://fonts.googleapis.com/css?family=Monoton" rel="stylesheet">
     <link rel="stylesheet" href="css/bootstrap.css" type="text/css" />
     <link rel="stylesheet" href="css/styles.css" type="text/css" />
     <script src="js/jquery-3.3.1.js"></script>
     <script src="js/scripts.js"></script>
     <title>Pizza The Hut</title>
   </head>
-  <body>
-    <div class="container-fluid">
-      <div class="header">
-        <h1>Pizza The Hut</h1>
-        <h4>Best Pizza in the Galaxy delivered at Ludicrus Speed!</h4>
+  <body background="img/warp.jpg">
+    <div class="header">
+      <h1>Pizza The Hut</h1>
+      <h4>Best Pizza in the Galaxy Delivered at Ludicrus Speed!</h4>
+    </div>
+    <form id="pizza">
+      <div class="form-group">
+        <div class="row">
+            <div class="col-md-4">
+              <h2>Name</h2>
+              <input type="text" class="form-control" id="name" placeholder="Name" required>
+          </div>
+        </div>
       </div>
-      <form id="pizza">
+        <br>
         <div class="form-group">
           <div class="row">
-              <div class="col-md-4">
-                <h2>Name</h2>
-                <input type="text" class="form-control" id="name" placeholder="Name" required>
-            </div>
-          </div>
-        </div>
-          <br>
-          <div class="form-group">
-            <div class="row">
-              <div class="col-md-12">
-                <h2>Pizza Size</h2>
-              </div>
-            </div>
-            <div class="row">
-              <div class="col-md-4">
-                <select class="form-control" id="pizza-size" required>
-                  <option value="Personal Pizza">Personal Pizza</option>
-                  <option value="Small Pizza">Small Pizza</option>
-                  <option value="Medium Pizza">Medium Pizza</option>
-                  <option value="Large Pizza">Large Pizza</option>
-                </select>
-              </div><!--column two-->
-            </div><!--row one-->
-          </div> <!--end-->
-          <br>
-          <br>
-          <div class="row">
             <div class="col-md-12">
-              <h2>Toppings</h2>
+              <h2>Pizza Size</h2>
             </div>
           </div>
           <div class="row">
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Garlic">
-              <label for="toppings-garlic">Roasted Garlic</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Olives">
-              <label for="toppings-olives">Black Olives</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Mushrooms">
-              <label for="toppings-mushrooms">Mushrooms</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Basil">
-              <label for="toppings-basil">Basil</label>
-            </div>
-            </div>
-          <div class="row">
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value="Sun Dried Tomatoes">
-              <label for="toppings-tomatoes">Sun Dried Tomatoes</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Artichoke Heart">
-              <label for="toppings-artichoke">Artichoke Heart</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Onions">
-              <label for="toppings-onions">Green Onions</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Bell Pepper">
-              <label for="toppings-peppers">Bell Pepper</label>
-            </div>
-          </div>
-          <br>
-          <br>
-          <div class="row">
-            <div class="col-md-12">
-              <h2>Protein</h2>
-            </div>
-          </div>
-          <div class="row">
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Pepperoni">
-              <label for="toppings-pepperoni">Pepperoni</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Sausage">
-              <label for="toppings-sausage">Sausage</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Bacon">
-              <label for="toppings-bacon">Bacon</label>
-            </div>
-            </div>
-          <div class="row">
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Milk Bone">
-              <label for="toppings-milkBone">Milk Bone</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Fake Pepperoni">
-              <label for="toppings-vPepperoni">Fake Pepperoni</label>
-            </div>
-            <div class="col-md-3">
-              <input type="checkbox" name="toppings" value=" Fake Sausage">
-              <label for="toppings-vSausage">Fake Sausage</label>
-            </div>
-          </div>
-          <br>
-          <br>
-
-          <div class="row">
-            <div class="col-md-12">
-              <button type="submit" class="btn">Submit</button>
-            </div>
-          </div>
-      </form>
-      <div class ="bottom">
+            <div class="col-md-4">
+              <select class="form-control" id="pizza-size" required>
+                <option value="Personal Pizza">Personal Pizza</option>
+                <option value="Small Pizza">Small Pizza</option>
+                <option value="Medium Pizza">Medium Pizza</option>
+                <option value="Large Pizza">Large Pizza</option>
+              </select>
+            </div><!--column two-->
+          </div><!--row one-->
+        </div> <!--end-->
+        <br>
+        <br>
         <div class="row">
           <div class="col-md-12">
-            <div id="pizza-order-output">
-              <ul id="pizza-order-list">
-              </ul>
-            </div>
+            <h2>Toppings</h2>
           </div>
         </div>
-
+        <div class="row">
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Garlic">
+            <label for="toppings-garlic">Roasted Garlic</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Olives">
+            <label for="toppings-olives">Black Olives</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Mushrooms">
+            <label for="toppings-mushrooms">Mushrooms</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Basil">
+            <label for="toppings-basil">Basil</label>
+          </div>
+          </div>
+        <div class="row">
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value="Sun Dried Tomatoes">
+            <label for="toppings-tomatoes">Sun Dried Tomatoes</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Artichoke Heart">
+            <label for="toppings-artichoke">Artichoke Heart</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Onions">
+            <label for="toppings-onions">Green Onions</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Bell Pepper">
+            <label for="toppings-peppers">Bell Pepper</label>
+          </div>
+        </div>
+        <br>
+        <br>
         <div class="row">
           <div class="col-md-12">
-            <div id="pizza-order-detail">
-              <h2>Here's your Pizza, <span class="name"></span>! May the Schwartz Be With You!</h2>
-              <h3><span class="pizza-size"></span></h3>
-              <h3>Ingredients: <span class="pizza-ingredients"></span></h3>
-              <h3>Pizza Total: $ <span class="order-total"></span><h3>
-            </div>
+            <h2>Protein</h2>
           </div>
+        </div>
+        <div class="row">
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Pepperoni">
+            <label for="toppings-pepperoni">Pepperoni</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Sausage">
+            <label for="toppings-sausage">Sausage</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Bacon">
+            <label for="toppings-bacon">Bacon</label>
+          </div>
+          </div>
+        <div class="row">
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Milk Bone">
+            <label for="toppings-milkBone">Milk Bone</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Fake Pepperoni">
+            <label for="toppings-vPepperoni">Fake Pepperoni</label>
+          </div>
+          <div class="col-md-3">
+            <input type="checkbox" name="toppings" value=" Fake Sausage">
+            <label for="toppings-vSausage">Fake Sausage</label>
+          </div>
+        </div>
+        <br>
+        <br>
+        <div class="row">
+          <div class="col-md-12">
+            <button type="submit" class="btn">Submit</button>
+          </div>
+        </div>
+    </form>
+  <div class ="bottom">
+    <div class="row">
+      <div class="col-md-12">
+        <div id="pizza-order-output">
+          <ul id="pizza-order-list">
+          </ul>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-md-12">
+      <div id="pizza-order-detail">
+        <h2>Here's your Pizza, <span class="name"></span>! May the Schwartz Be With You!</h2>
+        <h3><span class="pizza-size"></span></h3>
+        <h3>Ingredients: <span class="pizza-ingredients"></span></h3>
+        <h3>Pizza Total: $ <span class="order-total"></span><h3>
         </div>
       </div>
     </div>

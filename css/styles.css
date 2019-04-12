@@ -1,10 +1,6 @@
-body {
-  background-color: #8C9822;
 
-}
 
 .header {
-  background-color: #8c9822;
   color: white;
   font-size: 100px;
   height: 100%;
@@ -14,22 +10,27 @@ body {
 }
 
 h1 {
-  text-transform: uppercase;
+  font-family: 'Monoton', cursive;
   font-size: 150px;
+  color: #F1C80E;
 }
 
 h4 {
+
   font-size: 30px;
 }
 
 h3 {
-  color: white;
+  color: #F1C80E;
   text-shadow: 1px 2px 2px #000;
 }
 
+h2 {
+  color: white;
+}
 
-.container-fluid {
-  background-color: #8C9822;
+label {
+  color: white;
 }
 
 
@@ -40,13 +41,6 @@ h3 {
   padding-left: 10%;
   padding-top: 5%;
 }
-
-
-#pizza-order-detail {
-  padding-left: 60%;
-  margin-top: -170px;
-}
-
 
 ul {
     list-style: outside none none;
@@ -74,10 +68,8 @@ ul {
 
 #pizza-order-detail {
   display: none;
-}
-
-.pizza-ingredients {
-  color: #fff;
+  padding-left: 60%;
+  margin-top: -170px;
 }
 
 .form-control {

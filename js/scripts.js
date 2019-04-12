@@ -44,7 +44,7 @@ $(document).ready(function() {
    newPizza.pizzaingredients.push($(this).val());
  });
 
- $("ul#pizza-order-list").append("<li><button type='submit' class='btn '><span class='pizzaOrder'>" + "Verify Order" + "</button></span></li>");
+ $("ul#pizza-order-list").append("<li><button type='submit' class='btn '><span class='pizzaOrder'>" + "Are You Sure?" + "</button></span></li>");
 
  $(".pizzaOrder").last().click(function() {
    $("#pizza-order-detail").show();
