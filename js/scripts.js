@@ -5,7 +5,6 @@ function Pizza(size, ingredients) {
   this.pizzasize = size;
   this.pizzaingredients = [];
 };
-
 function Customer(name) {
   this.name = name;
 }
