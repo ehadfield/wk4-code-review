@@ -52,7 +52,6 @@ $(document).ready(function() {
    $(".pizza-size").text(newPizza.pizzasize);
    $(".pizza-ingredients").text(newPizza.pizzaingredients);
    $(".order-total").text(newPizza.price());
-
    });
  });
 });

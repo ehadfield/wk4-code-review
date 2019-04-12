@@ -1,0 +1,97 @@
+body {
+  background-color: #8C9822;
+
+}
+
+.header {
+  background-color: #8c9822;
+  color: white;
+  font-size: 100px;
+  height: 100%;
+  margin-top: 100px;
+  text-align: center;
+  width: 100%;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 150px;
+}
+
+h4 {
+  font-size: 30px;
+}
+
+h3 {
+  color: white;
+  text-shadow: 1px 2px 2px #000;
+}
+
+
+.container-fluid {
+  background-color: #8C9822;
+}
+
+
+#pizza {
+  font-size: 20px;
+  font-weight: bolder;
+  padding-bottom: 2%;
+  padding-left: 10%;
+  padding-top: 5%;
+}
+
+
+#pizza-order-detail {
+  padding-left: 60%;
+  margin-top: -170px;
+}
+
+
+ul {
+    list-style: outside none none;
+    margin-left: 25%;
+    margin-top: -189px;
+}
+
+
+.btn {
+  margin-top: 40px;
+  margin-bottom: 40px;
+  border-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  font-size: 40px;
+  background-color: white;
+  border: 5px solid black;
+}
+.second {
+  background-color: black;
+  color: white;
+  margin-left: 15%;
+}
+
+
+#pizza-order-detail {
+  display: none;
+}
+
+.pizza-ingredients {
+  color: #fff;
+}
+
+.form-control {
+    background-color: #fff;
+    background-image: none;
+    border: 5px solid black;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555;
+    display: block;
+    font-size: 25px;
+    height: 55px;
+    line-height: 1.8px;
+    padding: 5px 15px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    width: 100%;
+}
