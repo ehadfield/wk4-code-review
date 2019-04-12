@@ -36,9 +36,9 @@ $(document).ready(function() {
   $("form#pizza").submit(function(event) {
     event.preventDefault();
     var inputtedName = $("#name").val();
-   var inputtedPizzaSize = $("select#pizza-size").val();
-   var newCustomer = new Customer(inputtedName);
-   var newPizza = new Pizza(inputtedPizzaSize);
+    var inputtedPizzaSize = $("select#pizza-size").val();
+    var newCustomer = new Customer(inputtedName);
+    var newPizza = new Pizza(inputtedPizzaSize);
 
  $.each($("input[name='toppings']:checked"), function() {
    newPizza.pizzaingredients.push($(this).val());
