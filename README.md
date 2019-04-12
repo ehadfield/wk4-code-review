@@ -34,6 +34,10 @@ _No known bugs at this time._
 
 _If you'd like to get in contact with the creator, please email: hadfield.evan@gmail.com_
 
+## GH-PAGES link
+
+https://ehadfield.github.io/wk4-code-review/
+
 ## Technologies Used
 
 * _HTML_
